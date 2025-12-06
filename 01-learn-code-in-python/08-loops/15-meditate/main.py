@@ -1,0 +1,10 @@
+def meditate(mana, max_mana, num_potions):
+    pass
+
+
+# solution
+def meditate(mana, max_mana, num_potions):
+    while mana < max_mana and num_potions > 0:
+        num_potions -= 1
+        mana += 1
+    return mana, num_potions
